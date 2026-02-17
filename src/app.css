@@ -84,7 +84,7 @@
 	}
 
 	.content-wrapper {
-		max-width: 90%;
+		max-width: 100%;
 		padding-left: 10%;
 		padding-right: 10%;
 	}
@@ -103,7 +103,7 @@
 
 @media (max-width: 800px) {
 	.content-wrapper {
-		max-width: 90%;
+		max-width: 100%;
 		margin: 0 auto;
 		padding: 0 10px;
 	}
