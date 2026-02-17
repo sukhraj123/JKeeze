@@ -8,9 +8,7 @@ function article_1() {
 			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
 		keywords: [
 			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			
 		],
 		style: `
 				.article-content {
@@ -21,19 +19,53 @@ function article_1() {
 
 				.randImage {
 					align-self: center;
-					outline: 2px solid red;
+					outline: 2px solid blue;
+					max-width: 50%;
+				}
+					@media (max-width: 1024px) {
+	.randImage {
+					align-self: left;
+					outline: 2px solid blue;
+					max-width: 100%;
 				}
 				`,
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
+					<div className="subtitle">What are the benefits of cloud computing?
+Cloud computing provides greater flexibility, efficiency and strategic value by enabling organizations to use IT infrastructure and applications over the internet instead of installing and maintaining them on-premises.
+<div className="paragraph"></div>
+The benefits of cloud computing are far-reaching. Here, we break them down into 3 main categories:
+<p></p><div className="paragraph">
+<u>Flexibility:</u> Users can scale services to fit their needs, customize applications and access cloud services from anywhere with an internet connection.</div>
+<div className="paragraph">
+<u>Efficiency:</u> Enterprise users can get applications to market quickly without worrying about underlying infrastructure costs or maintenance.</div>
+<div className="paragraph">
+<u>Strategic value:</u> Cloud services give enterprises a competitive advantage by providing the most innovative technology available.</div></div><p></p>
 					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
+						src="../cloud.jpg"
+						alt="https://www.ibm.com/think/topics/cloud-computing-benefits"
 						className="randImage"
-					/>
-				</div>
+					/><p></p>
+					<div className="paragraph">Today, cloud computing is omnipresent, continuously transforming how individuals and organizations—from small startups to large enterprises—operate. Businesses rely on cloud computing to enable remote work and harness innovative technologies such as artificial intelligence (AI), machine learning (ML) and edge computing.</div>
+						<p></p>
+<div className="paragraph">Cloud computing infrastructure relies on a network of remote data centers, servers and storage systems owned and operated by a third-party cloud service provider (CSP), such as Amazon Web Services (AWS), Google Cloud Platform, Microsoft Azure and IBM Cloud®.</div>
+<p></p>
+<div className="paragraph"></div>
+<div className="paragraph">There are 4 main cloud delivery models:</div>
+<p></p>
+<div className="paragraph"></div>
+<div className="paragraph">Public cloud</div>
+<div className="paragraph"></div>
+<div className="paragraph">Private cloud</div>
+<div className="paragraph"></div>
+<div className="paragraph">Hybrid cloud</div>
+<div className="paragraph"></div>
+<div className="paragraph">Hybrid multicloud</div>
+
+
+</div>
+				
 			</React.Fragment>
 		),
 	};
@@ -48,13 +80,11 @@ function article_2() {
 		style: ``,
 		keywords: [
 			"Artificial Intelligence in Healthcare",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			
 		],
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
+				<h1>Content </h1>
 			</React.Fragment>
 		),
 	};
