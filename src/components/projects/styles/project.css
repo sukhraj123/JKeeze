@@ -5,6 +5,7 @@
 	border-radius: 20px;
 	opacity: 0.8;
 	height: 100%;
+	
 }
 
 .project a {
@@ -20,6 +21,7 @@
 .project:hover .project-link {
 	color: var(--link-color);
 	transition: color 0.3s ease-in-out;
+	
 }
 
 .project-container {
@@ -29,7 +31,12 @@
 .project-logo {
 	width: 200px;
 }
+@media (max-width: 480px) {
+	.project-logo {
+	width: 300px;
+}
 
+}
 .project-logo img {
 	width: 100%;
 }
