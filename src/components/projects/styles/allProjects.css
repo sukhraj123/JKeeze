@@ -4,8 +4,7 @@
 	align-items: stretch;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	margin-left: -35px;
-	margin-right: -35px;
+	
 }
 
 .all-projects-project {
@@ -18,5 +17,12 @@
 @media (max-width: 600px) {
 	.all-projects-project {
 		width: calc(100% / 2);
+		overflow: hidden;
+	}
+}
+@media (max-width: 480px) {
+	.all-projects-project {
+		width: calc(90% / 1);
+		overflow: hidden;
 	}
 }
