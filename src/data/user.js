@@ -73,6 +73,20 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://kzwebsolutions.github.io/joeindica/",
 		},
+		{
+			title: "Tattoo Artist Website",
+			
+			logo: "../inked.png",
+			linkText: "View Project",
+			link: "https://inkedbykeeze.vercel.app/",
+		},
+		{
+			title: "Ecommerce Website",
+			
+			logo: "../optic.png",
+			linkText: "View Project",
+			link: "https://clearoptics.vercel.app/index",
+		},
 	],
 };
 
